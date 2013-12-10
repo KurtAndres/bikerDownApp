@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45130D44177EC68800859148 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 45130D3C177EC68800859148 /* Player.m */; };
+		45130D45177EC68800859148 /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45130D3D177EC68800859148 /* PlayerCell.m */; };
+		45130D46177EC68800859148 /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45130D40177EC68800859148 /* PlayerDetailsViewController.m */; };
+		45130D47177EC68800859148 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45130D42177EC68800859148 /* PlayersViewController.m */; };
+		453B15D8176E7BEA0079EE3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453B15D7176E7BEA0079EE3D /* UIKit.framework */; };
+		453B15DA176E7BEA0079EE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453B15D9176E7BEA0079EE3D /* Foundation.framework */; };
+		453B15DC176E7BEA0079EE3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453B15DB176E7BEA0079EE3D /* CoreGraphics.framework */; };
+		453B15E2176E7BEA0079EE3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 453B15E0176E7BEA0079EE3D /* InfoPlist.strings */; };
+		453B15E4176E7BEA0079EE3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 453B15E3176E7BEA0079EE3D /* main.m */; };
+		453B15E8176E7BEA0079EE3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453B15E7176E7BEA0079EE3D /* AppDelegate.m */; };
+		453B15EA176E7BEA0079EE3D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 453B15E9176E7BEA0079EE3D /* Default.png */; };
+		453B15EC176E7BEA0079EE3D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453B15EB176E7BEA0079EE3D /* Default@2x.png */; };
+		453B15EE176E7BEA0079EE3D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453B15ED176E7BEA0079EE3D /* Default-568h@2x.png */; };
+		453B15F1176E7BEA0079EE3D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453B15EF176E7BEA0079EE3D /* MainStoryboard_iPhone.storyboard */; };
+		453B15F4176E7BEA0079EE3D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453B15F2176E7BEA0079EE3D /* MainStoryboard_iPad.storyboard */; };
+		453B15F7176E7BEA0079EE3D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453B15F6176E7BEA0079EE3D /* FirstViewController.m */; };
+		453B15F9176E7BEA0079EE3D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 453B15F8176E7BEA0079EE3D /* first.png */; };
+		453B15FB176E7BEA0079EE3D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453B15FA176E7BEA0079EE3D /* first@2x.png */; };
+		453B15FE176E7BEA0079EE3D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453B15FD176E7BEA0079EE3D /* SecondViewController.m */; };
+		453B1600176E7BEA0079EE3D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 453B15FF176E7BEA0079EE3D /* second.png */; };
+		453B1602176E7BEA0079EE3D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453B1601176E7BEA0079EE3D /* second@2x.png */; };
+		453B160F177658F20079EE3D /* ButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 453B160E177658F20079EE3D /* ButtonView.m */; };
+		453B1611177818590079EE3D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453B1610177818590079EE3D /* AudioToolbox.framework */; };
+		4585ACFB17810DFB005CDA97 /* CancelTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585ACFA17810DFB005CDA97 /* CancelTimeViewController.m */; };
+		4585AD051786158F005CDA97 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4585AD041786158F005CDA97 /* CoreMotion.framework */; };
+		4585AD0717861E5D005CDA97 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4585AD0617861E5D005CDA97 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45130D3C177EC68800859148 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		45130D3D177EC68800859148 /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
+		45130D3E177EC68800859148 /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		45130D3F177EC68800859148 /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
+		45130D40177EC68800859148 /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		45130D41177EC68800859148 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		45130D42177EC68800859148 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
+		45130D43177EC68800859148 /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
+		453B15D4176E7BEA0079EE3D /* BikerDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikerDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		453B15D7176E7BEA0079EE3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		453B15D9176E7BEA0079EE3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		453B15DB176E7BEA0079EE3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		453B15DF176E7BEA0079EE3D /* BikerDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BikerDown-Info.plist"; sourceTree = "<group>"; };
+		453B15E1176E7BEA0079EE3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		453B15E3176E7BEA0079EE3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		453B15E5176E7BEA0079EE3D /* BikerDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BikerDown-Prefix.pch"; sourceTree = "<group>"; };
+		453B15E6176E7BEA0079EE3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		453B15E7176E7BEA0079EE3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		453B15E9176E7BEA0079EE3D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		453B15EB176E7BEA0079EE3D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		453B15ED176E7BEA0079EE3D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		453B15F0176E7BEA0079EE3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		453B15F3176E7BEA0079EE3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		453B15F5176E7BEA0079EE3D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		453B15F6176E7BEA0079EE3D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		453B15F8176E7BEA0079EE3D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		453B15FA176E7BEA0079EE3D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		453B15FC176E7BEA0079EE3D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		453B15FD176E7BEA0079EE3D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		453B15FF176E7BEA0079EE3D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		453B1601176E7BEA0079EE3D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		453B160D177658F20079EE3D /* ButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonView.h; path = ../ButtonView.h; sourceTree = "<group>"; };
+		453B160E177658F20079EE3D /* ButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonView.m; path = ../ButtonView.m; sourceTree = "<group>"; };
+		453B1610177818590079EE3D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4585ACF917810DFB005CDA97 /* CancelTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelTimeViewController.h; sourceTree = "<group>"; };
+		4585ACFA17810DFB005CDA97 /* CancelTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelTimeViewController.m; sourceTree = "<group>"; };
+		4585AD041786158F005CDA97 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4585AD0617861E5D005CDA97 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453B15D1176E7BEA0079EE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4585AD0717861E5D005CDA97 /* MessageUI.framework in Frameworks */,
+				4585AD051786158F005CDA97 /* CoreMotion.framework in Frameworks */,
+				453B1611177818590079EE3D /* AudioToolbox.framework in Frameworks */,
+				453B15D8176E7BEA0079EE3D /* UIKit.framework in Frameworks */,
+				453B15DA176E7BEA0079EE3D /* Foundation.framework in Frameworks */,
+				453B15DC176E7BEA0079EE3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453B15CB176E7BE90079EE3D = {
+			isa = PBXGroup;
+			children = (
+				453B15DD176E7BEA0079EE3D /* BikerDown */,
+				453B15D6176E7BEA0079EE3D /* Frameworks */,
+				453B15D5176E7BEA0079EE3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		453B15D5176E7BEA0079EE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453B15D4176E7BEA0079EE3D /* BikerDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453B15D6176E7BEA0079EE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4585AD0617861E5D005CDA97 /* MessageUI.framework */,
+				4585AD041786158F005CDA97 /* CoreMotion.framework */,
+				453B1610177818590079EE3D /* AudioToolbox.framework */,
+				453B15D7176E7BEA0079EE3D /* UIKit.framework */,
+				453B15D9176E7BEA0079EE3D /* Foundation.framework */,
+				453B15DB176E7BEA0079EE3D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		453B15DD176E7BEA0079EE3D /* BikerDown */ = {
+			isa = PBXGroup;
+			children = (
+				453B15EF176E7BEA0079EE3D /* MainStoryboard_iPhone.storyboard */,
+				457652AB1856B58100F01249 /* classes */,
+				453B15F2176E7BEA0079EE3D /* MainStoryboard_iPad.storyboard */,
+				457652AC1856B59800F01249 /* assets */,
+				453B15DE176E7BEA0079EE3D /* Supporting Files */,
+			);
+			path = BikerDown;
+			sourceTree = "<group>";
+		};
+		453B15DE176E7BEA0079EE3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4585ACFC1781333F005CDA97 /* Sounds */,
+				453B15DF176E7BEA0079EE3D /* BikerDown-Info.plist */,
+				453B15E0176E7BEA0079EE3D /* InfoPlist.strings */,
+				453B15E3176E7BEA0079EE3D /* main.m */,
+				453B15E5176E7BEA0079EE3D /* BikerDown-Prefix.pch */,
+				453B15E9176E7BEA0079EE3D /* Default.png */,
+				453B15EB176E7BEA0079EE3D /* Default@2x.png */,
+				453B15ED176E7BEA0079EE3D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		457652AB1856B58100F01249 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				453B15F5176E7BEA0079EE3D /* FirstViewController.h */,
+				453B15F6176E7BEA0079EE3D /* FirstViewController.m */,
+				453B15FC176E7BEA0079EE3D /* SecondViewController.h */,
+				453B15FD176E7BEA0079EE3D /* SecondViewController.m */,
+				4585ACF917810DFB005CDA97 /* CancelTimeViewController.h */,
+				4585ACFA17810DFB005CDA97 /* CancelTimeViewController.m */,
+				45130D41177EC68800859148 /* Player.h */,
+				45130D3C177EC68800859148 /* Player.m */,
+				45130D3E177EC68800859148 /* PlayerCell.h */,
+				45130D3D177EC68800859148 /* PlayerCell.m */,
+				45130D3F177EC68800859148 /* PlayerDetailsViewController.h */,
+				45130D40177EC68800859148 /* PlayerDetailsViewController.m */,
+				45130D43177EC68800859148 /* PlayersViewController.h */,
+				45130D42177EC68800859148 /* PlayersViewController.m */,
+				453B160D177658F20079EE3D /* ButtonView.h */,
+				453B160E177658F20079EE3D /* ButtonView.m */,
+				453B15E6176E7BEA0079EE3D /* AppDelegate.h */,
+				453B15E7176E7BEA0079EE3D /* AppDelegate.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		457652AC1856B59800F01249 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				453B15F8176E7BEA0079EE3D /* first.png */,
+				453B15FA176E7BEA0079EE3D /* first@2x.png */,
+				453B15FF176E7BEA0079EE3D /* second.png */,
+				453B1601176E7BEA0079EE3D /* second@2x.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		4585ACFC1781333F005CDA97 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		453B15D3176E7BEA0079EE3D /* BikerDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453B1605176E7BEA0079EE3D /* Build configuration list for PBXNativeTarget "BikerDown" */;
+			buildPhases = (
+				453B15D0176E7BEA0079EE3D /* Sources */,
+				453B15D1176E7BEA0079EE3D /* Frameworks */,
+				453B15D2176E7BEA0079EE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikerDown;
+			productName = BikerDown;
+			productReference = 453B15D4176E7BEA0079EE3D /* BikerDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453B15CC176E7BE90079EE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kurt Andres";
+			};
+			buildConfigurationList = 453B15CF176E7BE90079EE3D /* Build configuration list for PBXProject "BikerDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 453B15CB176E7BE90079EE3D;
+			productRefGroup = 453B15D5176E7BEA0079EE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453B15D3176E7BEA0079EE3D /* BikerDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453B15D2176E7BEA0079EE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453B15E2176E7BEA0079EE3D /* InfoPlist.strings in Resources */,
+				453B15EA176E7BEA0079EE3D /* Default.png in Resources */,
+				453B15EC176E7BEA0079EE3D /* Default@2x.png in Resources */,
+				453B15EE176E7BEA0079EE3D /* Default-568h@2x.png in Resources */,
+				453B15F1176E7BEA0079EE3D /* MainStoryboard_iPhone.storyboard in Resources */,
+				453B15F4176E7BEA0079EE3D /* MainStoryboard_iPad.storyboard in Resources */,
+				453B15F9176E7BEA0079EE3D /* first.png in Resources */,
+				453B15FB176E7BEA0079EE3D /* first@2x.png in Resources */,
+				453B1600176E7BEA0079EE3D /* second.png in Resources */,
+				453B1602176E7BEA0079EE3D /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453B15D0176E7BEA0079EE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453B15E4176E7BEA0079EE3D /* main.m in Sources */,
+				453B15E8176E7BEA0079EE3D /* AppDelegate.m in Sources */,
+				453B15F7176E7BEA0079EE3D /* FirstViewController.m in Sources */,
+				453B15FE176E7BEA0079EE3D /* SecondViewController.m in Sources */,
+				453B160F177658F20079EE3D /* ButtonView.m in Sources */,
+				45130D44177EC68800859148 /* Player.m in Sources */,
+				45130D45177EC68800859148 /* PlayerCell.m in Sources */,
+				45130D46177EC68800859148 /* PlayerDetailsViewController.m in Sources */,
+				45130D47177EC68800859148 /* PlayersViewController.m in Sources */,
+				4585ACFB17810DFB005CDA97 /* CancelTimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		453B15E0176E7BEA0079EE3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453B15E1176E7BEA0079EE3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		453B15EF176E7BEA0079EE3D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453B15F0176E7BEA0079EE3D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		453B15F2176E7BEA0079EE3D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453B15F3176E7BEA0079EE3D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		453B1603176E7BEA0079EE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		453B1604176E7BEA0079EE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453B1606176E7BEA0079EE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikerDown/BikerDown-Prefix.pch";
+				INFOPLIST_FILE = "BikerDown/BikerDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		453B1607176E7BEA0079EE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikerDown/BikerDown-Prefix.pch";
+				INFOPLIST_FILE = "BikerDown/BikerDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453B15CF176E7BE90079EE3D /* Build configuration list for PBXProject "BikerDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453B1603176E7BEA0079EE3D /* Debug */,
+				453B1604176E7BEA0079EE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453B1605176E7BEA0079EE3D /* Build configuration list for PBXNativeTarget "BikerDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453B1606176E7BEA0079EE3D /* Debug */,
+				453B1607176E7BEA0079EE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453B15CC176E7BE90079EE3D /* Project object */;
+}
