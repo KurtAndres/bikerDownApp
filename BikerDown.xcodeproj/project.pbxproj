@@ -67,8 +67,8 @@
 		453B15FD176E7BEA0079EE3D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		453B15FF176E7BEA0079EE3D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		453B1601176E7BEA0079EE3D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		453B160D177658F20079EE3D /* ButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonView.h; path = ../ButtonView.h; sourceTree = "<group>"; };
-		453B160E177658F20079EE3D /* ButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonView.m; path = ../ButtonView.m; sourceTree = "<group>"; };
+		453B160D177658F20079EE3D /* ButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonView.h; sourceTree = "<group>"; };
+		453B160E177658F20079EE3D /* ButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonView.m; sourceTree = "<group>"; };
 		453B1610177818590079EE3D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4585ACF917810DFB005CDA97 /* CancelTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelTimeViewController.h; sourceTree = "<group>"; };
 		4585ACFA17810DFB005CDA97 /* CancelTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelTimeViewController.m; sourceTree = "<group>"; };
@@ -370,7 +370,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BikerDown/BikerDown-Prefix.pch";
-				INFOPLIST_FILE = "BikerDown/BikerDown-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BikerDown-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -382,7 +382,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BikerDown/BikerDown-Prefix.pch";
-				INFOPLIST_FILE = "BikerDown/BikerDown-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BikerDown-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
